@@ -29,19 +29,22 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-top: 15px;
+    flex: 1;
+    gap: 380px;
 }
 
 img {
     height: 200px;
-    width: auto;
+    width: 300px;
 }
 
 .h-body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex: 1;
 }
 
 .h-content {
@@ -51,8 +54,17 @@ img {
 
 .hc-head {
     font-size: 48px;
+
 }
 
+.hc-subtext {
+    max-width: 300px;
+}
+
+.m-content {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
 .m-head {
     text-align: center;
     font-size: 36px;
@@ -68,6 +80,57 @@ img {
 .m-image {
     height: 150px;
     width: 150px;
+}
+
+.m-subtext {
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.q-text {
+    display: flex;
+    max-width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoter {
+    font-weight: 700;
+    align-self:center;
+    padding-left: 450px;
+}
+
+.b-text {
+    margin: 30px 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.b-box {
+    background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    width: 600px;
+    gap: 200px;
+}
+
+.b-header {
+    color: white;
+}
+
+.b-subtext {
+    color: #E5E7EB;
 }
 
 .footer {
